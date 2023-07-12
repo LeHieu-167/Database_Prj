@@ -51,25 +51,25 @@ CREATE TABLE application (
 -- Chèn dữ liệu vào bảng inform
 INSERT INTO inform (mssv, name, gender, specialize, graduation_year, github, facebook, email)
 VALUES
-  (20180001, 'Nguyễn Văn A', 'Nam', 'Khoa Học Máy Tính', 2022, 'nguyenvana', 'nguyenvana', 'nguyenvana@example.com'),
-  (20180002, 'Trần Thị B', 'Nữ', 'Quản trị Kinh doanh', 2023, 'tranthib', 'tranthib', 'tranthib@example.com'),
-  (20180003, 'Phạm Văn C', 'Nam', 'Kỹ thuật Điện', 2022, 'phamvanc', 'phamvanc', 'phamvanc@example.com'),
-  (20190001, 'Nguyễn Thị D', 'Nữ', 'Kỹ thuật Hóa học', 2022, 'nguyenthid', 'nguyenthid', 'nguyenthid@example.com'),
-  (20190002, 'Trần Văn E', 'Nam', 'Kỹ thuật Môi trường', 2023, 'tranvane', 'tranvane', 'tranvane@example.com'),
-  (20220001, 'Nguyễn Văn J', 'Nam', 'Kỹ thuật Cơ khí', 2025, 'nguyenvanj', 'nguyenvanj', 'nguyenvanj@example.com'),
-  (20220002, 'Trần Thị K', 'Nữ', 'Quản trị Kinh doanh', 2025, 'tranthik', 'tranthik', 'tranthik@example.com'),
-  (20230001, 'Lê Văn L', 'Nam', 'Kỹ thuật Điện tử', 2027, 'levanl', 'levanl', 'levanl@example.com'),
-  (20230002, 'Phạm Thị M', 'Nữ', 'Kỹ thuật Môi trường', 2027, 'phamthim', 'phamthim', 'phamthim@example.com'),
-  (20230003, 'Hoàng Văn N', 'Nam', 'Kỹ thuật Xây dựng', 2026, 'hoangvann', 'hoangvann', 'hoangvann@example.com'),
-  (20220004, 'Đặng Thị O', 'Nữ', 'Kinh tế', 2026, 'dangthio', 'dangthio', 'dangthio@example.com'),
-  (20230005, 'Nguyễn Văn P', 'Nam', 'Khoa Học Máy tính', 2027, 'nguyenvanp', 'nguyenvanp', 'nguyenvanp@example.com'),
-  (20230006, 'Trần Thị Q', 'Nữ', 'Quản trị Kinh doanh', 2027, 'tranthiq', 'tranthiq', 'tranthiq@example.com'),
-  (20210007, 'Lê Văn R', 'Nam', 'Kỹ thuật Điện tử', 2026, 'levanr', 'levanr', 'levanr@example.com'),
-  (20220008, 'Phạm Thị S', 'Nữ', 'Kỹ thuật Môi trường', 2026, 'phamthis', 'phamthis', 'phamthis@example.com'),
-  (20230009, 'Nguyễn Thị T', 'Nữ', 'Khoa Học Máy tính', 2027, 'nguyenthit', 'nguyenthit', 'nguyenthit@example.com'),
-  (20230010, 'Trần Văn U', 'Nam', 'Kỹ thuật Điện tử', 2026, 'tranvanu', 'tranvanu', 'tranvanu@example.com'),
-  (20200011, 'Lê Thị V', 'Nữ', 'Kỹ thuật Môi trường', 2024, 'lethiv', 'lethiv', 'lethiv@example.com'),
-  (20200002, 'Phạm Văn C1', 'Nam', 'Quản trị Kinh doanh', 2024, 'phamvanc1', 'phamvanc1', 'phamvanc1@example.com');
+  (20180001, 'John Smith', 'Male', 'Khoa Học Máy Tính', 2022, 'nguyenvana', 'nguyenvana', 'nguyenvana@example.com'),
+  (20180002, 'Emma Johnson', 'Female', 'Quản trị Kinh doanh', 2023, 'tranthib', 'tranthib', 'tranthib@example.com'),
+  (20180003, 'Michael Brown', 'Male', 'Kỹ thuật Điện', 2022, 'phamvanc', 'phamvanc', 'phamvanc@example.com'),
+  (20190001, 'Sophia Wilson', 'Female', 'Kỹ thuật Hóa học', 2022, 'nguyenthid', 'nguyenthid', 'nguyenthid@example.com'),
+  (20190002, 'Daniel Martinez', 'Male', 'Kỹ thuật Môi trường', 2023, 'tranvane', 'tranvane', 'tranvane@example.com'),
+  (20220001, 'Olivia Anderson', 'Male', 'Kỹ thuật Cơ khí', 2025, 'nguyenvanj', 'nguyenvanj', 'nguyenvanj@example.com'),
+  (20220002, 'Ava Thompson', 'Female', 'Quản trị Kinh doanh', 2025, 'tranthik', 'tranthik', 'tranthik@example.com'),
+  (20230001, 'James Lee', 'Male', 'Kỹ thuật Điện tử', 2027, 'levanl', 'levanl', 'levanl@example.com'),
+  (20230002, 'Sophie Clark', 'Female', 'Kỹ thuật Môi trường', 2027, 'phamthim', 'phamthim', 'phamthim@example.com'),
+  (20230003, 'Matthew Wright', 'Male', 'Kỹ thuật Xây dựng', 2026, 'hoangvann', 'hoangvann', 'hoangvann@example.com'),
+  (20220004, 'Isabella Turner', 'Female', 'Kinh tế', 2026, 'dangthio', 'dangthio', 'dangthio@example.com'),
+  (20230005, 'Andrew Phillips', 'Male', 'Khoa Học Máy tính', 2027, 'nguyenvanp', 'nguyenvanp', 'nguyenvanp@example.com'),
+  (20230006, 'Emily Rodriguez', 'Female', 'Quản trị Kinh doanh', 2027, 'tranthiq', 'tranthiq', 'tranthiq@example.com'),
+  (20210007, 'William Scott', 'Male', 'Kỹ thuật Điện tử', 2026, 'levanr', 'levanr', 'levanr@example.com'),
+  (20220008, 'Grace Lewis', 'Female', 'Kỹ thuật Môi trường', 2026, 'phamthis', 'phamthis', 'phamthis@example.com'),
+  (20230009, 'Victoria Turner', 'Female', 'Khoa Học Máy tính', 2027, 'nguyenthit', 'nguyenthit', 'nguyenthit@example.com'),
+  (20230010, 'David Johnson', 'Male', 'Kỹ thuật Điện tử', 2026, 'tranvanu', 'tranvanu', 'tranvanu@example.com'),
+  (20200011, 'Sophia White', 'Female', 'Kỹ thuật Môi trường', 2024, 'lethiv', 'lethiv', 'lethiv@example.com'),
+  (20200002, 'John Smith', 'Male', 'Quản trị Kinh doanh', 2024, 'phamvanc1', 'phamvanc1', 'phamvanc1@example.com');
 
 
 INSERT INTO achievement (mssv, cpa, programming_lang, language_cert, project, internship_experience)
@@ -93,4 +93,3 @@ VALUES
 (20230010, 3.4, 'Python', 'IELTS', 'Solstice Nexus', 'Internship at VWX Company'),
 (20200011, 3.8, 'C++', 'TOEIC', 'Cosmic Dreamers', 'Internship at YZA Corporation'),
 (20200002, 3.2, 'Java', 'TOEFL', 'Stardust Symphony', 'Internship at BCD Inc.');
-
